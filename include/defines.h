@@ -12,12 +12,4 @@
 #define false 0x00
 #endif
 
-#ifndef uint
-#define uint unsigned int
-#endif
-
-#ifndef ulong
-#define ulong unsigned long
-#endif
-
 #define DEBUG 1
