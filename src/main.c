@@ -12,7 +12,7 @@ int main(void)
 	timer1_config();
 	uart_config(true);
 	sei();
-	uc_printf("config done!");
+	uart_printf("config done!");
 
     while (1)
     {
