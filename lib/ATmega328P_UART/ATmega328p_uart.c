@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include "..\..\include\defines.h"
 
-void uart_config()
+void uart_config(void)
 {
 	// resets control and status register A
 	UCSR0A = 0x00;									
