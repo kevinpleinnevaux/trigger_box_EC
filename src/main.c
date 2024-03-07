@@ -10,7 +10,7 @@ int main(void)
 	ext_int_config();
 	io_config();
 	timer1_config();
-	uart_config(true);
+	uart_config();
 	sei();
 	uart_printf("config done!");
 
