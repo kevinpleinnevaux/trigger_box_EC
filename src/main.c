@@ -14,7 +14,5 @@ int main(void)
 	sei();
 	uart_printf("config done!");
 
-    while (1)
-    {
-    }
+    while (1);
 }
