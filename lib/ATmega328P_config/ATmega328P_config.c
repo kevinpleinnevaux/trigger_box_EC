@@ -31,6 +31,7 @@ void timer1_config()
 	TCCR1B |= 1 << CS12;		// 256 prescaler
 	TCCR1C = 0x00;
 	OCR1A = 3125; // Compare match A @ 50ms
+	TIMSK1 |= 1 << OCIE1A;
 }
 
 void ext_int_config()
